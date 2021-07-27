@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.container div{
+    width: 250px;
+    height: 400px;
+    
+}
+.cars{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 25px;
+    color: hsl(0, 0%, 100%, 0.75);
+    letter-spacing: 0.2rem;
+}
+.box-1{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.box-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.box-3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.my-btn{
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);  
+  border-radius: 20px;
+  padding: 0.8rem;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  width: 50%;
+
+}
+.my-btn1{
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(184, 100%, 22%);  
+  border-radius: 20px;
+  padding: 0.8rem;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  width: 50%;
+
+}
+.my-btn2{
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(179, 100%, 13%);  
+  border-radius: 20px;
+  padding: 0.8rem;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  width: 50%;
+
+}
+p{
+    margin-left: 25px;
+    margin-right: 20px;
+    color: hsl(0, 0%, 100%, 0.75);
+    margin-bottom: 60px;
+    font-size: 13px;
+}
+footer{
+    margin-top: 200px;
+    font-size: 13px;
+    text-align: center;
+}
+/*Destop view*/
+@media(min-width: 1440px){
+    body{
+        min-width: 1440px;
+    }
+}
+
+/*mobile view*/
+@media(max-width: 375px){
+    body{
+        max-width: 375px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+         margin-right: 10px;
+         align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    footer{
+        font-size: 8px;
+    }
+
+}
